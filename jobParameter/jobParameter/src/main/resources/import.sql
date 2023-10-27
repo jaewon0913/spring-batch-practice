@@ -1,0 +1,18 @@
+INSERT INTO member (id, name, code, create_date) VALUES(1, '테스트1', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(2, '테스트2', 'Y', TIMESTAMPADD(DAY, -1, NOW()));
+INSERT INTO member (id, name, code, create_date) VALUES(3, '테스트3', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(4, '테스트4', 'N', TIMESTAMPADD(DAY, -2, NOW()));
+INSERT INTO member (id, name, code, create_date) VALUES(5, '테스트5', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(6, '테스트6', 'Y', TIMESTAMPADD(DAY, -2, NOW()));
+INSERT INTO member (id, name, code, create_date) VALUES(7, '테스트7', 'N', now());
+INSERT INTO member (id, name, code, create_date) VALUES(8, '테스트8', 'N', TIMESTAMPADD(DAY, -3, NOW()));
+INSERT INTO member (id, name, code, create_date) VALUES(9, '테스트9', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(10, '테스트10', 'N', now());
+INSERT INTO member (id, name, code, create_date) VALUES(11, '테스트11', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(12, '테스트12', 'Y', TIMESTAMPADD(DAY, -1, NOW()));
+INSERT INTO member (id, name, code, create_date) VALUES(13, '테스트13', 'N', TIMESTAMPADD(DAY, -1, NOW()));
+INSERT INTO member (id, name, code, create_date) VALUES(14, '테스트14', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(15, '테스트15', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(16, '테스트16', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(17, '테스트17', 'Y', now());
+INSERT INTO member (id, name, code, create_date) VALUES(18, '테스트18', 'Y', now());
