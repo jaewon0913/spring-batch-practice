@@ -9,6 +9,7 @@ import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.launch.JobLauncher;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,7 +26,7 @@ public class JobUtils {
             Map<String, JobParameter> jobParametersMap = new HashMap<>();
 
             jobParametersMap.put("param", new JobParameter(jobName.toString()));
-            jobParametersMap.put("date", new JobParameter("2023-10-27"));
+            jobParametersMap.put("date", new JobParameter(LocalDate.now().toString()));
 
             JobExecution jobExecution = jobLauncher.run(jobName, new JobParameters(jobParametersMap));
 
